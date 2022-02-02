@@ -1,24 +1,27 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/react/solid'
+import type { NextPage } from 'next'
 
 const stats = [
-    { name: 'Avg. build time', stat: '362ms', previousStat: '7.4s', change: '1954.78% Faster', changeType: 'increase', changeText: 'faster' },
-    { name: 'Package size', stat: '64mb', previousStat: '556mb', change: '768.75% smaller size', changeType: 'decrease' },
-    { name: 'Resource usage', stat: '12%', previousStat: '44%', change: '32% resources saved', changeType: 'increase' },
-    { name: 'Avg. speed writes ', stat: '1.4GB/s', previousStat: '108MB/s', change: '1218.73% faster', changeType: 'increase' },
-    { name: 'Userbase compatibility support', stat: '97.52%', previousStat: '62.11%', change: '35.41% more users supported', changeType: 'increase' },
-    { name: 'Max supported download speeds', stat: '5.3GB/s', previousStat: '198MS/s', change: '2585.46% faster support', changeType: 'increase' },
+    { name: 'Avg. Build Time', stat: '362ms', previousStat: '7.4s', change: '20x Faster build time', changeType: 'increase', changeText: 'faster' },
+    { name: 'Package Size', stat: '64mb', previousStat: '556mb', change: '8x Smaller file size', changeType: 'decrease' },
+    { name: 'Resource Usage', stat: '92mb', previousStat: '381mb', change: 'Uses 4x less RAM', changeType: 'decrease' },
+    { name: 'Avg. Write Speeds ', stat: '1.4GB/s', previousStat: '108MB/s', change: 'Supports speeds 13x faster', changeType: 'increase' },
+    { name: 'Userbase Compatibility Support', stat: '97.52%', previousStat: '62.11%', change: '8 Million users supported', changeType: 'increase' },
+    { name: 'Max Supported Download Speeds', stat: '1.3GB/s', previousStat: '127MS/s', change: '10x Faster download speeds', changeType: 'increase' },
 ]
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+const Stats: NextPage = () => {
     return (
-        <div>
+        <div className="bg-white selection:bg-purple-700 selection:text-black">
             <div className="md:container md:mx-auto">
-                <h3 className="text-lg leading-6 font-medium text-gray-900">What we&apos;ve accomplished</h3>
+                <div className="pb-5 border-b border-gray-200">
+                    <h3 className="text-lg leading-6 font-medium text-gray-900">What we&apos;ve accomplished:</h3>
+                </div>
                 <dl className="mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x">
                     {stats.map((item) => (
                         <div key={item.name} className="px-4 py-5 sm:p-6">
@@ -58,3 +61,5 @@ export default function Example() {
         </div>
     )
 }
+
+export default Stats
