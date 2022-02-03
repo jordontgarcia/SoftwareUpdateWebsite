@@ -1,6 +1,8 @@
 import Stats from '../components/Stats'
 import Insight from '../components/Insight'
 import type { NextPage } from 'next'
+import CEOQuote from '../components/CeoQuote'
+import Pricing from '../components/Pricing'
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +23,8 @@ const Home: NextPage = () => {
       {/* Import and render components */}
       <Stats />
       <Insight />
+      <Pricing />
+      <CEOQuote />
 
     </div>
   )
