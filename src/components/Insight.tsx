@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 const posts = [
   {
     title: 'Trice V3 Initialized',
-    href: '#',
+    href: 'example',
     description:
       `At this time, Trice's core Teams founded the mere thought of a serious software upgrade, involving innovation at such a level that it
        would shift and restructure our company entirely. Trice, initiated with passion, began to viciously brainstorm construct the basis of
@@ -14,7 +14,7 @@ const posts = [
   },
   {
     title: 'Trice V3 Early Development',
-    href: '#',
+    href: 'example',
     description:
       `Starting January 03, 2018 our core Development Team began working on the early stages of development. Trice revised several goals and
        our expectations were set much higher. Due to aiming higher than reasonably feasible, this maximized our team's potential and results. Management
@@ -23,16 +23,16 @@ const posts = [
     datetime: '2018-01-03',
   },
   {
-    title: 'Improve your customer experience',
-    href: '#',
+    title: 'Furthering Trice Development',
+    href: 'example',
     description:
       'Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis.',
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
   },
   {
-    title: 'Writing effective landing page copy',
-    href: '#',
+    title: 'Trice Beta Testing',
+    href: 'example',
     description:
       'Ipsum voluptates quia doloremque culpa qui eius. Id qui id officia molestias quaerat deleniti. Qui facere numquam autem libero quae cupiditate asperiores vitae cupiditate. Cumque id deleniti explicabo.',
     date: 'Jan 29, 2020',
@@ -42,15 +42,15 @@ const posts = [
 
 const Insight: NextPage = () => {
   return (
-    <div className="bg-white selection:bg-purple-700 selection:text-black">
+    <div className="selection:bg-purple-700 selection:text-black">
       <div className="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
         <div className="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div>
             <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Trice
               <span className="text-indigo-500 selection:text-white"> V3 </span>Insight</h2>
             <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center">
-              <p className="text-xl text-gray-500">Timeline of Trice
-                <span className="text-indigo-500 selection:text-white"> V3 </span> development.</p>
+              <p className="text-xl text-gray-500">A little more about
+                <span className="text-indigo-500 selection:text-white"> V3 </span> development</p>
               <form className="mt-6 flex flex-col sm:flex-row lg:mt-0 lg:justify-end">
                 <div>
                   <label htmlFor="email-address" className="sr-only">
@@ -82,6 +82,11 @@ const Insight: NextPage = () => {
               <div key={post.title}>
                 <p className="text-sm text-gray-500">
                   <time dateTime={post.datetime}>{post.date}</time>
+
+                  <span className="ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                    Completed
+                  </span>
+
                 </p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-gray-900">{post.title}</p>
