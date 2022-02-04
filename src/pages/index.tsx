@@ -3,6 +3,7 @@ import Pricing from '../components/Pricing'
 import Insight from '../components/Insight'
 import Footer from '../components/Footer'
 import Stats from '../components/Stats'
+import Info from '../components/Info'
 import type { NextPage } from 'next'
 import FAQ from '../components/FAQ'
 
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
 			<Stats />
 			<Insight />
 			<Pricing />
+			<Info />
 			<FAQ />
 			<CEOQuote />
 			<Footer />
