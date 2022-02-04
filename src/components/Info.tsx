@@ -11,7 +11,7 @@ import {
 
 const actions = [
 	{
-		title: 'Time Efficient',
+		title: 'Time Efficiency',
 		icon: ClockIcon,
 		iconForeground: 'text-teal-700',
 		iconBackground: 'bg-teal-50',
