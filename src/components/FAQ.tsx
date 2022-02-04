@@ -1,6 +1,6 @@
-import { ChevronDownIcon } from '@heroicons/react/outline'
-import { Disclosure } from '@headlessui/react'
-import type { NextPage } from 'next'
+import { ChevronDownIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import type { NextPage } from 'next';
 
 const faqs = [
 	{
@@ -26,6 +26,16 @@ function classNames(...classes) {
 const FAQ: NextPage = () => {
 	return (
 		<div className='bg-white'>
+			{/* Section Line Separator */}
+			<div className='bg-white relative mt-8'>
+				<div className='absolute inset-0 flex items-center' aria-hidden='true'>
+					<div className='w-full border-t border-gray-300' />
+				</div>
+				<div className='relative flex justify-center'>
+					<span className='px-3 bg-white text-lg font-medium text-gray-900'>Have Questions? We got you!</span>
+				</div>
+			</div>
+
 			<div className='max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8'>
 				<div className='max-w-3xl mx-auto divide-y-2 divide-gray-200'>
 					<h2 className='text-center text-3xl font-extrabold text-gray-900 sm:text-4xl'>Frequently asked questions</h2>
@@ -57,6 +67,6 @@ const FAQ: NextPage = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default FAQ
+export default FAQ;
