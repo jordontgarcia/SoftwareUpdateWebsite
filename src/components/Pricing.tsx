@@ -1,5 +1,5 @@
-import { CheckCircleIcon } from '@heroicons/react/solid';
-import type { NextPage } from 'next';
+import { CheckCircleIcon } from '@heroicons/react/solid'
+import type { NextPage } from 'next'
 
 const includedFeatures = [
 	'Lifetime Updates',
@@ -88,12 +88,14 @@ const Pricing: NextPage = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-white relative'>
+			<div className='bg-white relative mb-8'>
 				<div className='absolute inset-0 flex items-center' aria-hidden='true'>
 					<div className='w-full border-t border-gray-300' />
 				</div>
 				<div className='relative flex justify-center'>
-					<span className='px-3 bg-white text-lg font-medium text-gray-900'>Have Questions? We got you!</span>
+					<span className='px-3 bg-white text-lg font-medium text-gray-900'>
+						Trice&apos;s core values and what we stand for:
+					</span>
 				</div>
 			</div>
 		</div>
