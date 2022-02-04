@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 const posts = [
 	{
 		title: 'Trice V3 Initialized',
+		iconText: 'Completed',
 		href: 'example',
 		description: `At this time, Trice's core Teams founded the mere thought of a serious software upgrade, involving innovation at such a level that it
         would shift and restructure our company entirely. Trice, initiated with passion, began to passionately brainstorm construct the basis of how such
@@ -98,12 +99,25 @@ const Insight: NextPage = () => {
 							<div key={post.title}>
 								<p className='text-sm text-gray-500'>
 									<time dateTime={post.datetime}>{post.date}</time>
-
 									<span className='ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800'>
+										<svg
+											xmlns='http://www.w3.org/2000/svg'
+											className='h-5 w-5 mr-1'
+											fill='none'
+											viewBox='0 0 24 24'
+											stroke='currentColor'
+										>
+											<path
+												strokeLinecap='round'
+												strokeLinejoin='round'
+												strokeWidth={2}
+												d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z'
+											/>
+										</svg>
 										Completed
 									</span>
 								</p>
-								<a href='#' className='mt-2 block'>
+								<a className='mt-2 block'>
 									<p className='text-xl font-semibold text-gray-900'>{post.title}</p>
 									<p className='mt-3 text-base text-gray-500'>{post.description}</p>
 								</a>
