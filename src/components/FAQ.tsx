@@ -1,6 +1,6 @@
-import { ChevronDownIcon } from '@heroicons/react/outline';
-import { Disclosure } from '@headlessui/react';
-import type { NextPage } from 'next';
+import { ChevronDownIcon } from '@heroicons/react/outline'
+import { Disclosure } from '@headlessui/react'
+import type { NextPage } from 'next'
 
 const faqs = [
 	{
@@ -69,4 +69,4 @@ const FAQ: NextPage = () => {
 	);
 };
 
-export default FAQ;
+export default FAQ
