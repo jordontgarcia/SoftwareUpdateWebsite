@@ -22,11 +22,6 @@ const Stats: NextPage = () => {
 					<div className='absolute inset-0 flex items-center' aria-hidden='true'>
 						<div className='w-full border-t border-gray-300' />
 					</div>
-					<div className='relative flex justify-center'>
-						<span className='px-3 bg-white text-lg font-medium text-gray-900'>
-							Stats speak for us, what we&apos;ve accomplished:
-						</span>
-					</div>
 				</div>
 
 				<dl className='mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x'>
