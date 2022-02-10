@@ -64,8 +64,8 @@ import {
   const Info: React.FunctionComponent = () => {
 	return (
 	  // Div Below centers the container, and limits the width to content width. looks nicer.
-	  <div className='dark:bg-black md:container md:max-w-screen-xl md:mx-auto'>
-		<div className='rounded-lg dark:bg-gray-600 bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px'>
+	  <div className='md:container md:max-w-screen-xl md:mx-auto'>
+		<div className='rounded-lg dark:bg-gray-600 bg-gray-300 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px'>
 		  {actions.map((action, actionIdx) => (
 			<div
 			  key={action.title}
