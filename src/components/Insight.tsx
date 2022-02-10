@@ -65,11 +65,7 @@ const posts = [
 			  </h2>
 			  <div className='mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center'>
 				<p className='text-xl dark:text-gray-100 text-gray-500'>
-				  A little more about{' '}
-				  <span className='text-indigo-500 dark:text-blue-600 selection:text-white'>
-					V3{' '}
-				  </span>
-				  development
+				  More on V3 development
 				</p>
 				<form className='mt-6 flex flex-col sm:flex-row lg:mt-0 lg:justify-end'>
 				  <div>
@@ -104,23 +100,6 @@ const posts = [
 				<div key={post.title}>
 				  <p className='text-sm dark:text-gray-400 text-gray-500'>
 					<time dateTime={post.datetime}>{post.date}</time>
-					<span className='ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium dark:bg-green-800 bg-green-100 dark:text-black dark:font-medium text-green-800'>
-					  <svg
-						xmlns='http://www.w3.org/2000/svg'
-						className='h-5 w-5 mr-1'
-						fill='none'
-						viewBox='0 0 24 24'
-						stroke='currentColor'
-					  >
-						<path
-						  strokeLinecap='round'
-						  strokeLinejoin='round'
-						  strokeWidth={2}
-						  d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z'
-						/>
-					  </svg>
-					  Completed
-					</span>
 				  </p>
 				  <a className='mt-2 block'>
 					<p className='text-xl font-semibold dark:text-white text-gray-900'>
