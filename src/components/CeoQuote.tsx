@@ -27,7 +27,7 @@ const CeoMessage: React.FunctionComponent = () => {
 					y={0}
 					width={4}
 					height={4}
-					className='dark:text-gray-300 text-indigo-400'
+					className='dark:text-gray-300 text-blue-500'
 					fill='currentColor'
 				  />
 				</pattern>
