@@ -51,7 +51,7 @@ import {
 	  title: 'Community Support',
 	  icon: UserGroupIcon,
 	  iconForeground: 'text-indigo-700 dark:text-indigo-100',
-	  iconBackground: 'bg-indigo-100 dark:bg-indigo-600',
+	  iconBackground: 'bg-indigo-0 dark:bg-indigo-600',
 	  description:
 		'We’re here to help and root for you. We believe support importance is often underestimated.',
 	},
