@@ -6,7 +6,7 @@ const ToggleButton: React.FunctionComponent = () => {
 		<div className='float-right mr-20 mt-4'>
 			<button
 				type='button'
-				className='fixed z-30 select-none text-white inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm bg-toggle-blue bg-black dark:bg-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200'
+				className='fixed z-30 select-none text-white inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm bg-toggle-blue bg-dark-lead dark:bg-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200'
 				onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
 			>
 				{theme === 'light' ? '🌞' : '🌙'}
