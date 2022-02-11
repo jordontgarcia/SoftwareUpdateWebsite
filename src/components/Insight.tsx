@@ -58,7 +58,7 @@ const posts = [
 			<div>
 			  <h2 className='text-3xl tracking-tight font-extrabold dark:text-gray-100 text-gray-900 sm:text-4xl'>
 				Trice{' '}
-				<span className='text-indigo-500 dark:text-blue-600 selection:text-white'>
+				<span className='text-blue-700 dark:text-blue-600 selection:text-white'>
 				  V3{' '}
 				</span>
 				Insight
