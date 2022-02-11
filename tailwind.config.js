@@ -18,6 +18,9 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
       },
+      contrast: {
+        92: '.92',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],
