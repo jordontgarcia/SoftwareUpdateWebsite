@@ -27,7 +27,7 @@ const CeoMessage: React.FunctionComponent = () => {
 					y={0}
 					width={4}
 					height={4}
-					className='dark:text-gray-300 text-blue-500'
+					className='dark:text-slate-400 text-blue-500'
 					fill='currentColor'
 				  />
 				</pattern>
@@ -56,7 +56,7 @@ const CeoMessage: React.FunctionComponent = () => {
 					  </div>
   
 					  <svg
-						className='hidden md:block mx-1 h-5 w-5 dark:text-blue-700 text-indigo-500'
+						className='hidden md:block mx-1 h-5 w-5 dark:text-blue-700 text-blue-600'
 						fill='currentColor'
 						viewBox='0 0 20 20'
 					  >
