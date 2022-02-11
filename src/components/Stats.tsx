@@ -70,9 +70,9 @@ const Stats: React.FunctionComponent = () => {
                 {item.name}
               </dt>
               <dd className='mt-1 flex justify-between items-baseline md:block lg:flex'>
-                <div className='flex items-baseline text-2xl font-semibold text-indigo-600 dark:text-white'>
+                <div className='flex items-baseline text-2xl font-semibold text-blue-700 dark:text-white'>
                   {item.stat}
-                  <span className='ml-2 text-sm font-medium dark:text-gray-300 text-gray-500'>
+                  <span className='ml-2 text-sm font-medium dark:text-gray-300 text-gray-600'>
                     from {item.previousStat}
                   </span>
                 </div>
@@ -81,7 +81,7 @@ const Stats: React.FunctionComponent = () => {
                   className={classNames(
                     item.changeType === 'increase'
                       ? 'select-none bg-green-100 dark:bg-green-800 dark:text-black dark:font-medium text-green-800'
-                      : 'select-none bg-red-100 dark:bg-red-900 dark:text-black dark:font-medium text-red-800',
+                      : 'select-none bg-red-100 dark:bg-red-800 dark:text-black dark:font-medium text-red-800',
                     'inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0'
                   )}
                 >
