@@ -201,7 +201,7 @@ const navigation = {
 				target='_blank'
 				rel='noopener noreferrer'
 			  >
-				<span className='dark:text-white text-blue-500 font-bold'>
+				<span className='dark:text-white text-blue-600 font-bold'>
 				  {' '}
 				  Next.js{' '}
 				</span>
@@ -212,7 +212,7 @@ const navigation = {
 				target='_blank'
 				rel='noopener noreferrer'
 			  >
-				<span className='dark:text-white text-blue-500 font-bold'>
+				<span className='dark:text-white text-blue-600 font-bold'>
 				  {' '}
 				  TailwindCSS.
 				</span>
