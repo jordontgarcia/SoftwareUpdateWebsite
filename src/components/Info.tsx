@@ -12,7 +12,7 @@ import {
 	  title: 'Time Efficiency',
 	  icon: ClockIcon,
 	  iconForeground: 'text-teal-700 dark:text-teal-100',
-	  iconBackground: 'bg-teal-50 dark:bg-teal-500',
+	  iconBackground: 'bg-teal-100 dark:bg-teal-500',
 	  description:
 		'We’ve built a system that will help you optimize your time and reduce costs.',
 	},
@@ -20,14 +20,14 @@ import {
 	  title: 'Security and Trust',
 	  icon: BadgeCheckIcon,
 	  iconForeground: 'text-purple-700 dark:text-purple-100',
-	  iconBackground: 'bg-purple-50 dark:bg-purple-700',
+	  iconBackground: 'bg-purple-100 dark:bg-purple-700',
 	  description: `Our security standard is the highest in the industry. We prioritize and uphold this value.`,
 	},
 	{
 	  title: 'Built for Teams',
 	  icon: UsersIcon,
 	  iconForeground: 'text-sky-700 dark:text-sky-100',
-	  iconBackground: 'bg-sky-50 dark:bg-sky-700',
+	  iconBackground: 'bg-sky-100 dark:bg-sky-700',
 	  description:
 		'With team cooperation in mind, we made Trice work perfectly for large teams.',
 	},
@@ -35,7 +35,7 @@ import {
 	  title: 'Ease of use',
 	  icon: CubeTransparentIcon,
 	  iconForeground: 'text-yellow-700 dark:text-yellow-100',
-	  iconBackground: 'bg-yellow-50 dark:bg-yellow-500',
+	  iconBackground: 'bg-yellow-100 dark:bg-yellow-500',
 	  description:
 		'Software should not be complicated or over engineered. Simplicity is key here.',
 	},
@@ -43,7 +43,7 @@ import {
 	  title: 'Feedback',
 	  icon: ChatIcon,
 	  iconForeground: 'text-rose-700 dark:text-rose-100',
-	  iconBackground: 'bg-rose-50 dark:bg-rose-600',
+	  iconBackground: 'bg-rose-100 dark:bg-rose-600',
 	  description:
 		'We want to hear from you. Filtering through feedback is a key part of our process.',
 	},
@@ -51,7 +51,7 @@ import {
 	  title: 'Community Support',
 	  icon: UserGroupIcon,
 	  iconForeground: 'text-indigo-700 dark:text-indigo-100',
-	  iconBackground: 'bg-indigo-50 dark:bg-indigo-600',
+	  iconBackground: 'bg-indigo-100 dark:bg-indigo-600',
 	  description:
 		'We’re here to help and root for you. We believe support importance is often underestimated.',
 	},
