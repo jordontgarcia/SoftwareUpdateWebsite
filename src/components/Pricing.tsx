@@ -45,7 +45,7 @@ const Pricing: React.FunctionComponent = () => {
                 </p>
                 <div className='mt-8'>
                   <div className='flex items-center'>
-                    <h4 className='flex-shrink-0 pr-4 text-sm tracking-wider font-semibold uppercase dark:text-blue-800 text-indigo-600'>
+                    <h4 className='flex-shrink-0 pr-4 text-sm tracking-wider font-semibold uppercase dark:text-blue-800 text-blue-700'>
                       What&apos;s included
                     </h4>
                     <div className='flex-1 border-t-2 border-gray-200' />
