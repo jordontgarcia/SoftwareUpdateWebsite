@@ -13,6 +13,7 @@ module.exports = {
         'dark-primary': 'rgb(9, 12, 21)',
         'dark-secondary': 'rgb(11, 14, 28)',
         'gray-lead': 'rgb(161, 168, 181)',
+        'dark-lead': 'rgb(20, 24, 39)',
         sky: colors.sky,
         teal: colors.teal,
         rose: colors.rose,
