@@ -129,7 +129,7 @@ const navigation = {
 					  <li key={item.name}>
 						<a
 						  href={item.href}
-						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500'
+						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500 duration-100'
 						>
 						  {item.name}
 						</a>
@@ -146,7 +146,7 @@ const navigation = {
 					  <li key={item.name}>
 						<a
 						  href={item.href}
-						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500'
+						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500 duration-100'
 						>
 						  {item.name}
 						</a>
@@ -165,7 +165,7 @@ const navigation = {
 					  <li key={item.name}>
 						<a
 						  href={item.href}
-						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500'
+						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500 duration-100'
 						>
 						  {item.name}
 						</a>
@@ -182,7 +182,7 @@ const navigation = {
 					  <li key={item.name}>
 						<a
 						  href={item.href}
-						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500'
+						  className='text-base dark:text-gray-400 dark:hover:text-white text-gray-400 hover:text-gray-500 duration-100'
 						>
 						  {item.name}
 						</a>
