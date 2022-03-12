@@ -1,5 +1,5 @@
-import UpdateComponent from '../components/Update'
-import IntroSection from '../components/Intro'
+import UpdateComponent from '../components/UpdateFlag'
+import IntroSection from '../components/IntroSection'
 import CEOQuote from '../components/CeoQuote'
 import Pricing from '../components/Pricing'
 import Insight from '../components/Insight'
