@@ -14,6 +14,8 @@ module.exports = {
         'dark-secondary': 'rgb(11, 14, 28)',
         'gray-lead': 'rgb(161, 168, 181)',
         'dark-lead': 'rgb(20, 24, 39)',
+        'teal-650': 'rgb(17 127 120)',
+        'rose-650': 'rgb(196 26 73)',
         sky: colors.sky,
         teal: colors.teal,
         rose: colors.rose,
