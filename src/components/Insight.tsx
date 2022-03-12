@@ -87,7 +87,7 @@ const posts = [
 					<button
 					  type='button'
 					  className='w-full dark:bg-slate-800 dark:hover:bg-slate-900 bg-blue-700 px-4 py-2 border border-transparent rounded-md flex items-center justify-center text-base font-medium 
-								text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-indigo-700 sm:w-auto sm:inline-flex'
+								text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-indigo-700 sm:w-auto sm:inline-flex'
 					>
 					  Notify me
 					</button>
