@@ -1,13 +1,16 @@
-import UpdateComponent from '../components/Update'
-import IntroSection from '../components/Intro'
-import CEOQuote from '../components/CeoQuote'
-import Pricing from '../components/Pricing'
-import Insight from '../components/Insight'
-import Footer from '../components/Footer'
-import Stats from '../components/Stats'
-import Info from '../components/Info'
-import type { NextPage } from 'next'
-import FAQ from '../components/FAQ'
+import UpdateComponent from '../components/Index/Update';
+import IntroSection from '../components/Index/Intro';
+import CEOQuote from '../components/Index/CeoQuote';
+
+import Pricing from '../components/Index/Pricing';
+import Insight from '../components/Index/Insight';
+import Footer from '../components/Index/Footer';
+
+import Stats from '../components/Index/Stats';
+import Info from '../components/Index/Info';
+import FAQ from '../components/Index/FAQ';
+
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
 	return (
@@ -42,4 +45,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home
+export default Home;
