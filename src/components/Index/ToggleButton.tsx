@@ -1,4 +1,4 @@
-import { useTheme } from 'next-themes'
+import { useTheme } from 'next-themes';
 
 const ToggleButton: React.FunctionComponent = () => {
 	const { theme, setTheme } = useTheme();
@@ -15,4 +15,4 @@ const ToggleButton: React.FunctionComponent = () => {
 	);
 };
 
-export default ToggleButton
+export default ToggleButton;
