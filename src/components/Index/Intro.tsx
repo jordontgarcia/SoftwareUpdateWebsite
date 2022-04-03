@@ -46,7 +46,7 @@ const IntroSection: React.FunctionComponent = () => {
 									))}
 									{/* Render ToggleButton Component */}
 									<ToggleButton />
-									<a href='./login' className='font-medium text-blue-500 hover:text-blue-500'>
+									<a href='./login' className='font-medium text-blue-600 hover:text-blue-500 dark:text-white'>
 										Log in
 									</a>
 								</div>
