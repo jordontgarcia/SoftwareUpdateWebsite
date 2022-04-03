@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import UpdateComponent from '../components/Index/Update';
 import IntroSection from '../components/Index/Intro';
 import CEOQuote from '../components/Index/CeoQuote';
@@ -11,12 +12,27 @@ import Info from '../components/Index/Info';
 import FAQ from '../components/Index/FAQ';
 
 import type { NextPage } from 'next';
+=======
+import type { NextPage } from 'next'
+
+import IntroSection from '../components/IntroSection'
+import UpdateFlag from '../components/UpdateFlag'
+
+import Stats from '../components/Stats'
+import Insight from '../components/Insight'
+import Pricing from '../components/Pricing'
+import Info from '../components/CoreValues'
+import CEOQuote from '../components/CeoQuote'
+
+import FAQ from '../components/FAQ'
+import Footer from '../components/Footer'
+>>>>>>> b64b767550fd6c3dc71c4cc4fb8cbe157a7f8554
 
 const Home: NextPage = () => {
 	return (
 		<div className='bg-white dark:bg-dark-primary selection:bg-purple-700 dark:selection:bg-yellow-500 selection:text-black'>
 			{/* Render Components */}
-			<UpdateComponent />
+			<UpdateFlag />
 			<IntroSection />
 			<div className='max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
 				<div className='text-center'>
