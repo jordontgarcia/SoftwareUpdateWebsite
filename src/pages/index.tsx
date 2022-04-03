@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-import UpdateComponent from '../components/Index/Update';
 import IntroSection from '../components/Index/Intro';
+import UpdateFlag from '../components/Index/Update';
 import CEOQuote from '../components/Index/CeoQuote';
 
 import Pricing from '../components/Index/Pricing';
@@ -12,21 +11,6 @@ import Info from '../components/Index/Info';
 import FAQ from '../components/Index/FAQ';
 
 import type { NextPage } from 'next';
-=======
-import type { NextPage } from 'next'
-
-import IntroSection from '../components/IntroSection'
-import UpdateFlag from '../components/UpdateFlag'
-
-import Stats from '../components/Stats'
-import Insight from '../components/Insight'
-import Pricing from '../components/Pricing'
-import Info from '../components/CoreValues'
-import CEOQuote from '../components/CeoQuote'
-
-import FAQ from '../components/FAQ'
-import Footer from '../components/Footer'
->>>>>>> b64b767550fd6c3dc71c4cc4fb8cbe157a7f8554
 
 const Home: NextPage = () => {
 	return (
@@ -43,8 +27,8 @@ const Home: NextPage = () => {
 						Public Release
 					</p>
 					<p className='max-w-xl mt-5 mx-auto text-xl dark:text-white text-gray-600'>
-						Trice&apos;s system-wide software upgrade is finally here. 
-						Our beta testers made Trice 3 the best it could be, for you.
+						Trice&apos;s system-wide software upgrade is finally here. Our beta testers made Trice 3 the best it could be, for
+						you.
 					</p>
 				</div>
 			</div>
