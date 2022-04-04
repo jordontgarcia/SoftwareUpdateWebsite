@@ -16,10 +16,10 @@ const Pricing: React.FunctionComponent = () => {
 			<div className='pt-12 sm:pt-16 lg:pt-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<div className='text-center'>
-						<h2 className='text-3xl font-extrabold dark:text-gray-100 text-gray-900 sm:text-4xl lg:text-5xl'>
+						<h2 className='text-3xl tablet:text-4xl laptop:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
 							No strings attached, all in your control
 						</h2>
-						<p className='mt-4 text-xl dark:text-gray-400 text-gray-600'>
+						<p className='mt-4 text-base tablet:text-lg laptop:text-xl dark:text-gray-400 text-gray-600'>
 							If you&apos;re not satisfied, kindly contact us within the first 90 days and we&apos;ll send you a full refund.
 						</p>
 					</div>
@@ -61,7 +61,7 @@ const Pricing: React.FunctionComponent = () => {
 								<p className='text-lg leading-6 font-medium dark:text-gray-100 text-gray-900'>
 									One payment, lifetime ownership
 								</p>
-								<div className='mt-4 flex items-center justify-center text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
+								<div className='mt-4 flex items-center justify-center text-4xl tablet:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
 									<span>$3,899</span>
 									<span className='ml-3 text-xl font-medium dark:text-gray-200 text-gray-500'>USD</span>
 								</div>
