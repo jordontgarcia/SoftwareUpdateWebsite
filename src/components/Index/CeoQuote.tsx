@@ -29,17 +29,19 @@ const CeoMessage: React.FunctionComponent = () => {
 					</svg>
 
 					<div className='relative'>
-						<blockquote className='mt-10'>
-							<div className='max-w-3xl mx-auto text-center text-2xl leading-9 font-medium dark:text-gray-200 text-gray-900'>
+						<blockquote className='mt-3 tablet:mt-6 laptop:mt-10'>
+							<div className='max-w-3xl mx-auto text-center text-xl tablet:text-2xl leading-9 font-medium dark:text-gray-200 text-gray-900'>
 								<p>
 									“Trice is passionately committed on providing a positive impact for our tech world. Only together, we achieve
 									The Impossible.”
 								</p>
 							</div>
-							<footer className='mt-8'>
+							<footer className='mt-16 tablet:mt-12 laptop:mt-8'>
 								<div className='md:flex md:items-center md:justify-center'>
 									<div className='mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center'>
-										<div className='text-base font-medium dark:text-gray-200 text-gray-900'>Jordon Tyler Garcia</div>
+										<div className='text-xl tablet:text-lg laptop:text-base font-medium dark:text-gray-200 text-gray-900'>
+											Jordon Tyler Garcia
+										</div>
 
 										<svg
 											className='hidden md:block mx-1 h-5 w-5 dark:text-blue-700 text-blue-600'
@@ -49,7 +51,9 @@ const CeoMessage: React.FunctionComponent = () => {
 											<path d='M11 0h3L9 20H6l5-20z' />
 										</svg>
 
-										<div className='text-base font-medium dark:text-gray-400 text-gray-500'>Founder and CEO @Trice</div>
+										<div className='text-sm tablet:text-base laptop:text-base font-medium dark:text-gray-400 text-gray-500'>
+											Founder and CEO @Trice
+										</div>
 									</div>
 								</div>
 							</footer>
