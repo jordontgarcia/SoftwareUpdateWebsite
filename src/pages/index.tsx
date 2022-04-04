@@ -1,5 +1,5 @@
 import IntroSection from '../components/Index/Intro';
-import UpdateFlag from '../components/Index/Update';
+import UpdateFlag from '../components/Index/UpdateFlag';
 import CEOQuote from '../components/Index/CeoQuote';
 
 import Pricing from '../components/Index/Pricing';
