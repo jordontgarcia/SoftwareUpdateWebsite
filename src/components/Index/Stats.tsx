@@ -73,7 +73,7 @@ const Stats: React.FunctionComponent = () => {
 								<div
 									className={classNames(
 										item.changeType === 'increase'
-											? 'select-none bg-green-100 dark:bg-green-800 dark:text-black dark:font-medium text-green-800'
+											? 'select-none bg-green-100 dark:bg-green-700 dark:text-black dark:font-medium text-green-800'
 											: 'select-none bg-red-100 dark:bg-red-800 dark:text-black dark:font-medium text-red-800',
 										'inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0',
 									)}
