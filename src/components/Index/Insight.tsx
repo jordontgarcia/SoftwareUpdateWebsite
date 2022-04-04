@@ -118,7 +118,7 @@ const Insight: React.FunctionComponent = () => {
 					<div className='w-full border-t dark:border-none border-gray-300' />
 				</div>
 				<div className='relative flex justify-center'>
-					<span className='px-3 dark:bg-transparent bg-white text-lg font-medium dark:text-white text-gray-900'>
+					<span className='px-3 dark:bg-transparent bg-white text-base laptop:text-lg font-medium dark:text-white text-gray-900'>
 						Payments made simple, for you and your team
 					</span>
 				</div>
