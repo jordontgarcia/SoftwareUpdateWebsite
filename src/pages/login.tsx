@@ -5,10 +5,10 @@ const Login: NextPage = () => {
 	return (
 		<div className='min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8'>
 			<div className='sm:mx-auto sm:w-full sm:max-w-md'>
-				<h2 className='mt-6 laptop:mt-10 text-center text-2xl laptop:text-4xl font-extrabold text-gray-900 dark:text-gray-50'>
+				<h2 className='mt-6 laptop:mt-10 text-center text-2xl tablet:text-3xl laptop:text-4xl font-extrabold text-gray-900 dark:text-gray-50'>
 					Trice Studios, Sign In
 				</h2>
-				<p className='mt-2 text-center text- text-gray-600 dark:text-gray-200'>
+				<p className='mt-2 text-center tablet:text-lg laptop:text-base text-gray-600 dark:text-gray-200'>
 					Or{' '}
 					<a href='#' className='font-medium text-blue-600 hover:text-blue-500 dark:text-gray-50 dark:hover:text-gray-200'>
 						sign up for free
