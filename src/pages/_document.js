@@ -21,9 +21,9 @@ class MyDocument extends Document {
 
 	render() {
 		return (
-			<Html className='h-full dark:bg-dark-primary'>
+			<Html className='h-full dark:bg-dark-primary selection:bg-purple-700 dark:selection:bg-emerald-400 selection:text-black'>
 				<Head />
-				<body className='h-full dark:bg-dark-primary'>
+				<body className='h-full dark:bg-dark-primary selection:bg-purple-700 dark:selection:bg-emerald-400 selection:text-black'>
 					<Main />
 					<NextScript />
 				</body>
