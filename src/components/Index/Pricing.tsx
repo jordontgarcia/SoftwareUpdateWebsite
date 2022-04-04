@@ -19,7 +19,7 @@ const Pricing: React.FunctionComponent = () => {
 						<h2 className='text-3xl tablet:text-4xl laptop:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
 							No strings attached, all in your control
 						</h2>
-						<p className='mt-4 text-base tablet:text-lg laptop:text-xl dark:text-gray-400 text-gray-600'>
+						<p className='mt-4 text-base tablet:text-xl laptop:text-xl dark:text-gray-400 text-gray-600'>
 							If you&apos;re not satisfied, kindly contact us within the first 90 days and we&apos;ll send you a full refund.
 						</p>
 					</div>
