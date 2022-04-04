@@ -93,7 +93,7 @@ const Footer: React.FunctionComponent = () => {
 			<h2 id='footer-heading' className='sr-only'>
 				Footer
 			</h2>
-			<div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
+			<div className='max-w-7xl mx-auto py-2 tablet:py-12 laptop:py-16 px-4 sm:px-6 lg:px-8'>
 				<div className='xl:grid xl:grid-cols-3 xl:gap-8'>
 					<div className='space-y-8 xl:col-span-1'>
 						<p className='text-gray-400 text-base'>Trice is honored to provide value and impact through our technologies.</p>
@@ -199,4 +199,4 @@ const Footer: React.FunctionComponent = () => {
 	);
 };
 
-export default Footer
+export default Footer;
