@@ -52,7 +52,7 @@ function classNames(...classes) {
 
 const Stats: React.FunctionComponent = () => {
 	return (
-		<div className='bg-white dark:bg-dark-primary selection:bg-purple-500 dark:selection:bg-yellow-500 selection:text-black'>
+		<div className='bg-white dark:bg-dark-primary selection:bg-purple-500 selection:text-black'>
 			<div className='md:container md:max-w-screen-xl md:mx-auto'>
 				<div className='relative'>
 					<div className='absolute inset-0 flex items-center' aria-hidden='true'>
