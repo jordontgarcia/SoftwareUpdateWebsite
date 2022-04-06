@@ -1,6 +1,6 @@
 const CeoMessage: React.FunctionComponent = () => {
 	return (
-		<div className='dark:bg-gray-900 selection:bg-purple-500 dark:selection:bg-yellow-500 selection:text-black'>
+		<div className='dark:bg-gray-900 selection:bg-purple-500 selection:text-black'>
 			<section className='py-12 overflow-hidden md:py-20 lg:py-24'>
 				<div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<svg
