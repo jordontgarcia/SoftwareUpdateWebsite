@@ -104,7 +104,7 @@ const Footer: React.FunctionComponent = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 									key={item.name}
-									className='dark:text-gray-200 dark:hover:text-blue-500 text-gray-400 hover:text-white duration-150'
+									className='dark:text-gray-200 dark:hover:text-emerald-400 text-gray-400 hover:text-white duration-150'
 								>
 									<span className='sr-only'>{item.name}</span>
 									<item.icon className='h-6 w-6' aria-hidden='true' />
@@ -183,11 +183,11 @@ const Footer: React.FunctionComponent = () => {
 					<p className='text-base text-gray-400 xl:text-center'>
 						&copy; {new Date().getFullYear()} Trice Studios. Made with
 						<a href='https://nextjs.org' target='_blank' rel='noopener noreferrer'>
-							<span className='text-white hover:text-red-500 dark:hover:text-blue-500 font-bold duration-150'> Next.js </span>
+							<span className='text-white hover:text-red-500 dark:hover:text-emerald-300 font-bold duration-150'> Next.js </span>
 						</a>
 						and
 						<a href='https://tailwindcss.com' target='_blank' rel='noopener noreferrer'>
-							<span className='text-white hover:text-red-500 dark:hover:text-blue-500 font-bold duration-150'>
+							<span className='text-white hover:text-red-500 dark:hover:text-emerald-300 font-bold duration-150'>
 								{' '}
 								TailwindCSS.
 							</span>
