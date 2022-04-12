@@ -1,5 +1,6 @@
 import { Popover } from '@headlessui/react';
 import ToggleButton from './ToggleButton';
+import { motion, MotionConfig } from 'framer-motion';
 import Image from 'next/image';
 
 const navigation = [
@@ -8,6 +9,25 @@ const navigation = [
 	{ name: 'Marketplace', href: '#' },
 ];
 
+const variantPrimary = {
+	hidden: { opacity: 0 },
+	visible: { opacity: 1, transition: { delay: 0.25, duration: 1 } },
+};
+
+const variantSecondary = {
+	hidden: { opacity: 0 },
+	visible: { opacity: 1, transition: { delay: 0.25, duration: 1 } },
+};
+
+const variantThird = {
+	hidden: { opacity: 0 },
+	visible: { opacity: 1, transition: { delay: 0.5, duration: 1 } },
+};
+
+const motionProps = {
+	initial: 'hidden',
+	animate: 'visible',
+};
 const IntroSection: React.FunctionComponent = () => {
 	return (
 		<div className='relative bg-rose-800 overflow-hidden'>
@@ -61,44 +81,53 @@ const IntroSection: React.FunctionComponent = () => {
 					<main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
 						<div className='sm:text-center lg:text-left'>
 							<h1 className='text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-200 sm:text-5xl md:text-6xl'>
-								<span className='block xl:inline'>Trice Studios</span>{' '}
-								<span className='block  selection:text-white xl:inline'>Announcement 📣</span>
+								<motion.div variants={variantThird} {...motionProps}>
+									<span className='block xl:inline'>Trice Studios</span>{' '}
+									<span className='block  selection:text-white xl:inline'>Announcement 📣</span>
+								</motion.div>
 							</h1>
 							<p className='mt-3 text-base dark:text-gray-300 text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
 								Trice Studios is honored to introduce the next chapter in our AI Software Application journey. We are
 								revolutionizing what Artificial Intelligence can do, and what it has been.
 							</p>
 							<div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
-								<div className='rounded-md shadow'>
-									<a
-										href='#'
-										className='select-none w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-700 hover:bg-teal-650 md:py-4 md:text-lg md:px-10'
-									>
-										Trice Consultation
-									</a>
-								</div>
-								<div className='mt-3 sm:mt-0 sm:ml-3'>
-									<a
-										href='#'
-										className='select-none w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-50 bg-rose-700 hover:bg-rose-650 md:py-4 md:text-lg md:px-10'
-									>
-										Conference Event
-									</a>
-								</div>
+								<motion.div variants={variantSecondary} {...motionProps}>
+									<div className='rounded-md shadow'>
+										<a
+											href='#'
+											className='select-none w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-700 hover:bg-teal-650 md:py-4 md:text-lg md:px-10'
+										>
+											Trice Consultation
+										</a>
+									</div>
+								</motion.div>
+
+								<motion.div variants={variantThird} {...motionProps}>
+									<div className='mt-3 sm:mt-0 sm:ml-3'>
+										<a
+											href='#'
+											className='select-none w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-50 bg-rose-700 hover:bg-rose-650 md:py-4 md:text-lg md:px-10'
+										>
+											Conference Event
+										</a>
+									</div>
+								</motion.div>
 							</div>
 						</div>
 					</main>
 				</div>
 			</div>
 			<div className='select-none contrast-92 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
-				<Image
-					className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-					src='/main.png'
-					layout='fill'
-					priority={true}
-					loading='eager'
-					alt=''
-				/>
+				<motion.div variants={variantPrimary} {...motionProps}>
+					<Image
+						className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
+						src='/main.png'
+						layout='fill'
+						priority={true}
+						loading='eager'
+						alt='Main Image'
+					/>
+				</motion.div>
 			</div>
 		</div>
 	);
