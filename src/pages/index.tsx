@@ -7,7 +7,7 @@ import Insight from '../components/Index/Insight';
 import Footer from '../components/Index/Footer';
 
 import Stats from '../components/Index/Stats';
-import Info from '../components/Index/Info';
+import Info from '../components/Index/CoreValues';
 import FAQ from '../components/Index/FAQ';
 
 import type { NextPage } from 'next';
