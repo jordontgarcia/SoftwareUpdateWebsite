@@ -56,7 +56,7 @@ function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');
 }
 
-const Info: React.FunctionComponent = () => {
+const CoreValues: React.FunctionComponent = () => {
 	return (
 		// Div Below centers the container, and limits the width to content width. looks nicer.
 		<div className='md:container md:max-w-screen-xl md:mx-auto'>
@@ -104,4 +104,4 @@ const Info: React.FunctionComponent = () => {
 	);
 };
 
-export default Info;
+export default CoreValues;
