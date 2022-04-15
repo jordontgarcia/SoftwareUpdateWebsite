@@ -6,7 +6,7 @@ import Pricing from '../components/Index/Pricing';
 import Insight from '../components/Index/Insight';
 import Footer from '../components/Index/Footer';
 
-import Info from '../components/Index/CoreValues';
+import CoreValues from '../components/Index/CoreValues';
 import Stats from '../components/Index/Stats';
 import FAQ from '../components/Index/FAQ';
 
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 			<Stats />
 			<Insight />
 			<Pricing />
-			<Info />
+			<CoreValues />
 			<CEOQuote />
 			<FAQ />
 			<Footer />
