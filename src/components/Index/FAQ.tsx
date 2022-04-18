@@ -4,16 +4,16 @@ import { Disclosure } from '@headlessui/react';
 const faqs = [
 	{
 		question: 'How long will V3 continue to receive support and updates?',
-		answer:
-			'Trice V3 will receive support and updates until V5 development begins. If you have any concerns about migrating to V3, please reach out to our support team.',
+		answer: `Great Question! Trice V3 will receive support and updates until V5 development begins. This allows our team to leverage our effort, ensuring our newest products are top notch!
+			 If you have any concerns about migrating to V3, please reach out to our support team.`,
 	},
 	{
 		question: 'Is V3 compatible with V2?',
-		answer: 'Yes. V2 is fully compatible with V3. V2 will be supported until V4 release.',
+		answer: 'Yep! V2 is fully compatible with V3. V2 will be supported until V4 release.',
 	},
 	{
 		question: 'Can you migrate from V2 to V3?',
-		answer: `Yes. You can directly migrate from V2 to V3. Trice Support needs to verify this migration for you, so please contact us.
+		answer: `Yes! You can directly migrate from V2 to V3. Trice Support needs to verify this migration for you, so please contact us.
              We will handle the rest for you, making it seamless for you and your team.`,
 	},
 ];
