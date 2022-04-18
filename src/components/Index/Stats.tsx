@@ -3,52 +3,42 @@ import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/react/solid';
 const stats = [
 	{
 		name: 'Avg. Build Time',
-		stat: '362ms',
-		previousStat: '7.4s',
-		change: '20x Faster builds',
+		stat: '300ms',
+		previousStat: '7s',
 		changeType: 'increase',
 		changeText: 'faster',
 	},
 	{
 		name: 'Package Size',
-		stat: '64mb',
-		previousStat: '556mb',
-		change: '8x Smaller file size',
+		stat: '65mb',
+		previousStat: '560mb',
 		changeType: 'decrease',
 	},
 	{
 		name: 'Resource Usage',
-		stat: '92mb',
-		previousStat: '381mb',
-		change: 'Uses 4x less RAM',
+		stat: '90mb',
+		previousStat: '380mb',
 		changeType: 'decrease',
 	},
 	{
 		name: 'Avg. Write Speeds ',
-		stat: '1.4GB/s',
-		previousStat: '108MB/s',
-		change: '13x Faster support',
+		stat: '1.5Gb/s',
+		previousStat: '110mb/s',
 		changeType: 'increase',
 	},
 	{
 		name: 'Userbase Compatibility Support',
-		stat: '97.52%',
-		previousStat: '62.11%',
-		change: '8 Million supported',
+		stat: '97.6%',
+		previousStat: '62.2%',
 		changeType: 'increase',
 	},
 	{
 		name: 'Max Supported Download Speeds',
-		stat: '1.3GB/s',
-		previousStat: '127MS/s',
-		change: '10x Faster downloads',
+		stat: '1.3Gb/s',
+		previousStat: '130mb/s',
 		changeType: 'increase',
 	},
 ];
-
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ');
-}
 
 const Stats: React.FunctionComponent = () => {
 	return (
@@ -68,30 +58,6 @@ const Stats: React.FunctionComponent = () => {
 								<div className='flex items-baseline text-2xl font-semibold text-blue-700 dark:text-white'>
 									{item.stat}
 									<span className='ml-2 text-sm font-medium dark:text-gray-300 text-gray-600'>from {item.previousStat}</span>
-								</div>
-
-								<div
-									className={classNames(
-										item.changeType === 'increase'
-											? 'select-none bg-green-100 dark:bg-green-700 dark:text-black dark:font-medium text-green-800'
-											: 'select-none bg-red-100 dark:bg-red-800 dark:text-black dark:font-medium text-red-800',
-										'inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0',
-									)}
-								>
-									{item.changeType === 'increase' ? (
-										<ArrowSmUpIcon
-											className='-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500 dark:text-black'
-											aria-hidden='true'
-										/>
-									) : (
-										<ArrowSmDownIcon
-											className='-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-red-500 dark:text-black'
-											aria-hidden='true'
-										/>
-									)}
-
-									<span className='sr-only'>{item.changeType === 'increase' ? 'Increased' : 'Decreased'} by</span>
-									{item.change}
 								</div>
 							</dd>
 						</div>
