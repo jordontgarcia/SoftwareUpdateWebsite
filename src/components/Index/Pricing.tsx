@@ -33,15 +33,15 @@ const Pricing: React.FunctionComponent = () => {
 							<div className='flex-1 bg-white dark:bg-gray-900 px-6 py-8 lg:p-12'>
 								<h3 className='text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:text-3xl'>Lifetime Membership</h3>
 								<p className='mt-6 text-base dark:text-gray-200 text-gray-500'>
-									Upon access, we will send you a custom welcome kit, with our own designed official Trice brand clothing as a
-									thank you. We highly value our customers user experience, don&apos;t hesitate to contact us if you have any
-									questions or concerns. We hope you enjoy Trice V3 and it&apos;s amazing uses, and we look forward to seeing
-									what your thoughts are! - 💖 Trice Team
+									Upon access, we will send you our welcome kit, with our own designed official Trice brand clothing as a
+									thank you for engaging with us. We highly value our customers experience, so don&apos;t hesitate to contact us if you have any
+									questions or concerns! We hope you enjoy Trice V3 and it&apos;s amazing capabilities, and we look forward to seeing
+									what your brand, or team, creates with it! - 💖 Trice Team
 								</p>
 								<div className='mt-8'>
 									<div className='flex items-center'>
-										<h4 className='flex-shrink-0 pr-4 text-sm tracking-wider font-semibold uppercase text-blue-700'>
-											What&apos;s included
+										<h4 className='flex-shrink-0 pr-4 text-sm tracking-wider font-semibold uppercase text-blue-700 dark:text-blue-600'>
+											So what&apos;s included?
 										</h4>
 										<div className='flex-1 border-t-2 border-gray-200' />
 									</div>
@@ -66,7 +66,7 @@ const Pricing: React.FunctionComponent = () => {
 									<span className='ml-3 text-xl font-medium dark:text-gray-200 text-gray-500'>USD</span>
 								</div>
 								<p className='mt-4 text-sm'>
-									<a href='#' className='select-none font-medium dark:text-blue-800 text-gray-500 underline'>
+									<a href='#' className='select-none font-medium dark:text-blue-700 dark:hover:text-blue-600 text-gray-500 underline'>
 										Learn about our membership policy
 									</a>
 								</p>
@@ -82,7 +82,7 @@ const Pricing: React.FunctionComponent = () => {
 								</div>
 								<div className='mt-4 text-sm'>
 									<a href='#' className='font-medium dark:text-gray-200 text-gray-900'>
-										Free Documentation <span className='font-normal dark:text-gray-200 text-gray-500'>(34MB)</span>
+										Official Documentation <span className='font-normal dark:text-gray-200 text-gray-500'>(34MB)</span>
 									</a>
 								</div>
 							</div>
@@ -98,7 +98,7 @@ const Pricing: React.FunctionComponent = () => {
 				</div>
 				<div className='relative flex justify-center'>
 					<span className='px-3 bg-white dark:bg-transparent text-lg font-medium dark:text-white text-gray-900'>
-						Trice&apos;s core values and what we stand for:
+						Trice core values, and what we stand for:
 					</span>
 				</div>
 			</div>
