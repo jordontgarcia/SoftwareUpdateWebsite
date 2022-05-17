@@ -1,5 +1,5 @@
 import { Popover } from '@headlessui/react';
-import ToggleButton from './ToggleButton';
+import ToggleButton from '../Shared/ToggleButton';
 import { motion, MotionConfig } from 'framer-motion';
 import Image from 'next/image';
 
