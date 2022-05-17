@@ -9,9 +9,9 @@ const Login: NextPage = () => {
 					Trice Studios, Sign In
 				</h2>
 				<p className='mt-2 text-center tablet:text-lg laptop:text-base text-gray-600 dark:text-gray-200'>
-					Or{' '}
+					No account?{' '}
 					<a href='#' className='font-medium text-blue-600 hover:text-blue-500 dark:text-gray-50 dark:hover:text-gray-200'>
-						sign up for free
+						Register
 					</a>
 				</p>
 			</div>
@@ -21,7 +21,7 @@ const Login: NextPage = () => {
 					<form className='space-y-6' action='#' method='POST'>
 						<div>
 							<label htmlFor='email' className='block text-sm font-medium text-gray-700'>
-								Trice Email
+								Email
 							</label>
 							<div className='mt-1'>
 								<input
@@ -38,7 +38,7 @@ const Login: NextPage = () => {
 
 						<div>
 							<label htmlFor='password' className='block text-sm font-medium text-gray-700'>
-								Trice Password
+								Password
 							</label>
 							<div className='mt-1'>
 								<input
@@ -76,7 +76,7 @@ const Login: NextPage = () => {
 						<div>
 							<button
 								type='submit'
-								className='select-none w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-700 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+								className='select-none w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-800 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700'
 							>
 								Sign in
 							</button>
@@ -86,7 +86,7 @@ const Login: NextPage = () => {
 							<a href='./'>
 								<button
 									type='button'
-									className='select-none w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-700 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+									className='select-none w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-800 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700'
 								>
 									Back to Home
 								</button>
