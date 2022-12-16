@@ -1,4 +1,4 @@
-import { InformationCircleIcon } from '@heroicons/react/solid';
+import { InformationCircleIcon } from '@heroicons/react/20/solid';
 
 const UpdateFlag: React.FunctionComponent = () => {
 	return (

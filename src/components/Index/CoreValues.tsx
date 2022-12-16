@@ -1,11 +1,11 @@
 import {
-	BadgeCheckIcon,
-	ChatIcon,
+	CheckBadgeIcon,
+	ChatBubbleOvalLeftEllipsisIcon,
 	ClockIcon,
 	CubeTransparentIcon,
 	UserGroupIcon,
 	UsersIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/20/solid';
 
 const actions = [
 	{
@@ -17,7 +17,7 @@ const actions = [
 	},
 	{
 		title: 'Security and Trust',
-		icon: BadgeCheckIcon,
+		icon: CheckBadgeIcon,
 		iconForeground: 'text-purple-700 dark:text-purple-100',
 		iconBackground: 'bg-purple-100 dark:bg-purple-700',
 		description: `Our security standard is the highest in the industry. We prioritize and uphold this value.`,
@@ -38,7 +38,7 @@ const actions = [
 	},
 	{
 		title: 'Feedback',
-		icon: ChatIcon,
+		icon: ChatBubbleOvalLeftEllipsisIcon,
 		iconForeground: 'text-rose-700 dark:text-rose-100',
 		iconBackground: 'bg-rose-100 dark:bg-rose-600',
 		description: 'We want to hear from you. Filtering through feedback is a key part of our process.',

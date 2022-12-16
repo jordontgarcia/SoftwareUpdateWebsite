@@ -1,4 +1,4 @@
-import { ChevronDownIcon } from '@heroicons/react/outline';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Disclosure } from '@headlessui/react';
 
 const faqs = [
