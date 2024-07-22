@@ -40,7 +40,7 @@ const CeoMessage: React.FunctionComponent = () => {
 								<div className='md:flex md:items-center md:justify-center'>
 									<div className='mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center'>
 										<div className='text-xl tablet:text-lg laptop:text-base font-medium dark:text-gray-200 text-gray-900'>
-											Jordon Tyler Garcia
+											Jordon
 										</div>
 
 										<svg
@@ -52,7 +52,7 @@ const CeoMessage: React.FunctionComponent = () => {
 										</svg>
 
 										<div className='text-sm tablet:text-base laptop:text-base font-medium dark:text-gray-400 text-gray-500'>
-											Founder and CEO @Trice
+											Founder and LeadDev @Trice
 										</div>
 									</div>
 								</div>

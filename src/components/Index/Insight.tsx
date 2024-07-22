@@ -2,51 +2,51 @@ const posts = [
 	{
 		title: 'Trice V3 Initialized',
 		href: 'example',
-		description: `At this time, Trice's core Teams founded the mere thought of a serious software upgrade, involving innovation at such a level that it
-			would shift and restructure our company entirely. Trice, initiated with passion, began to passionately brainstorm construct the basis of how such
-			an idea would be implemented. Brainstorming and careful notes of our thoughts was a several month process, and was revised several times.
-			The process was a success in the end. Trice was satisfied with our Future, and development phases began.`,
-		date: 'Jul 15, 2017',
-		datetime: '2017-07-15',
+		description: `At this time, Trice's core Teams founded the mere thought of a such serious software upgrade, involving innovation at such a level that it
+			would shift and restructure our company entirely. TriceAi team, initiated with passion, began to passionately brainstorm and construct the idea of how 
+			TriceAi would be birthed. Brainstorming and careful notes of our thoughts and ideas was a several month process, and was revised several times, for the
+			better. The journey was a success in the end. TriceAi Team was satisfied, and the development phases began.`,
+		date: 'Jul 15, 2019',
+		datetime: '2019-07-15',
 	},
 	{
-		title: 'Trice V3 Grows Wings',
+		title: 'TriceAi Grows Wings',
 		href: 'example',
-		description: `Starting January 03, 2018 our core Development Team began working on the early stages of development. Trice revised several goals and
-			our expectations were set much higher. Due to aiming higher than reasonably feasible, this maximized our team's potential and results. Management
-			and leadership worked together to ensure that the team was able to accomplish the goals and assist as much as possible during roadblocks and difficulty.`,
-		date: ' Jan 03, 2018',
-		datetime: '2018-01-03',
+		description: `Starting May 08, 2020 our software development team began working on the early stages of development. TriceAi revised several goals and
+			our expectations were set much higher. Due to aiming higher than reasonably expected, this maximized our team's potential and drove top results. Management
+			and leadership worked together endlessly, to ensure that the team was able to accomplish our goals and assist as much as possible during roadblocks and difficulty.`,
+		date: ' May 08, 2020',
+		datetime: '2020-05-08',
 	},
 	{
 		title: 'Uncharted Territory',
 		href: 'example',
-		description: `Trice development got very real in summer of 2018. Our teams worked endlessly to improve the software and ensure is was top-notch as could
-			be. While Trice's Software programming Team was working on the core features, our Security Team began to work on safety and privacy. All during this
-			process, Trice leadership team and management worked alongside Trice's departments to ensure that teams were able to accomplish the goals we visioned, 
-			and to assist as much as possible.`,
-		date: 'Jul 16th, 2018',
-		datetime: '2018-07-16',
+		description: `TriceAi development got very real in summer of 2021. Our teams worked endlessly to improve the software and ensure is was top-notch as could
+			be. While Trice's Software programming Team was working on the core features, our Security Team began to focus on ensuring safety and privacy. All during this
+			process, Trice leadership team and management worked alongside Trice's departments to ensure that teams were able to accomplish the goals we envisioned, and to 
+			assist as much as possible in any area needed.`,
+		date: 'Jul 16th, 2021',
+		datetime: '2021-07-16',
 	},
 	{
 		title: 'Try And Try Again',
 		href: 'example',
-		description: `Trice beta testing was now live! We were so excited to see how our beta testers were going to use Trice 3.0. We were also so happy to see
-			positive, promising results from our beta testers! This was a great opportunity for us to work on our core features even more, and improve the software
-			further. We wanted to ship something to production that would not disappoint! During this time we realized that we had a lot of potential improvement, so
-			we cut right to it and started improving these areas!`,
-		date: 'Apr 5th, 2021',
-		datetime: '2021-05-11',
+		description: `Trice beta testing was now live! We were so excited to see how our privately launched beta team was going to use TriceAi. We were also so happy to see
+	        promising results from our beta testers! This was a great opportunity for us to work on our core features further, and improve the software to new heights. We 
+			wanted to ship something shiny to production that would not disappoint! During this time we realized that we had a lot of potential improvement, so we cut right 
+			to it, and started improving these areas.`,
+		date: 'Aug 24th, 2022',
+		datetime: '2022-08-24',
 	},
 	{
 		title: 'Something Truly Spectacular',
 		href: 'example',
-		description: `On January 21st of 2022, we reached a milestone in Trice V3 were we felt content with our progress and results. This was a memorable time for
+		description: `On January 21st of 2024, we reached a milestone in Trice V3 were we felt content with our progress and results. This was a memorable time for
 			us! We were so excited to finally push Trice V3 into production, and see how it impacted those in the real world. We congratulated our Teams for working super
 			hard to make this happen and become a reality! We took a dream and vision and birthed it into reality, now that was something to celebrate for! We gave all our
 			teams and staff 2 weeks off to enjoy relaxation time and celebrate the birth of Trice V3!`,
-		date: 'Jan 21, 2022',
-		datetime: '2022-01-21',
+		date: 'Jan 21, 2024',
+		datetime: '2024-01-21',
 	},
 ];
 
@@ -57,11 +57,11 @@ const Insight: React.FunctionComponent = () => {
 				<div className='relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl'>
 					<div>
 						<h2 className='text-3xl tracking-tight font-extrabold dark:text-gray-100 text-gray-900 sm:text-4xl'>
-							Trice <span className='text-blue-700 dark:text-blue-600 selection:text-white'>V3 </span>
+							Trice <span className='text-blue-700 dark:text-blue-600 selection:text-white'>Ai </span>
 							Insight
 						</h2>
 						<div className='mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center'>
-							<p className='text-xl dark:text-gray-100 text-gray-500'>More on V3 development</p>
+							<p className='text-xl dark:text-gray-100 text-gray-500'>More on TriceAi development</p>
 							<form className='mt-6 flex flex-col sm:flex-row lg:mt-0 lg:justify-end'>
 								<div>
 									<label htmlFor='email-address' className='sr-only'>

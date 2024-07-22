@@ -17,10 +17,10 @@ const Pricing: React.FunctionComponent = () => {
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<div className='text-center'>
 						<h2 className='text-3xl tablet:text-4xl laptop:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
-							No strings attached, all in your control
+							No strings attached, ever.
 						</h2>
 						<p className='mt-4 text-base tablet:text-xl laptop:text-xl dark:text-gray-400 text-gray-600'>
-							If you&apos;re not satisfied, kindly contact us within the first 90 days and we&apos;ll send you a full refund.
+							Not impressed? Reach out to us within 60 days of purchase, and we&apos;ll send you a full refund.
 						</p>
 					</div>
 				</div>
@@ -33,10 +33,10 @@ const Pricing: React.FunctionComponent = () => {
 							<div className='flex-1 bg-white dark:bg-gray-900 px-6 py-8 lg:p-12'>
 								<h3 className='text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:text-3xl'>Lifetime Membership</h3>
 								<p className='mt-6 text-base dark:text-gray-200 text-gray-500'>
-									Upon access, we will send you our welcome kit, with our own designed official Trice brand clothing as a
-									thank you for engaging with us. We highly value our customers experience, so don&apos;t hesitate to contact us if you have any
-									questions or concerns! We hope you enjoy Trice V3 and it&apos;s amazing capabilities, and we look forward to seeing
-									what your brand, or team, creates with it! - 💖 Trice Team
+									Upon access, we will send you our welcome kit, with our own designed official Trice brand clothing as a thank
+									you for engaging with us. We highly value our customers experience, so don&apos;t hesitate to contact us if you
+									have any questions or concerns! We hope you enjoy Trice V3 and it&apos;s amazing capabilities, and we look
+									forward to seeing what your brand, or team, creates with it! - 💖 Trice Team
 								</p>
 								<div className='mt-8'>
 									<div className='flex items-center'>
@@ -62,11 +62,14 @@ const Pricing: React.FunctionComponent = () => {
 									One payment, lifetime ownership
 								</p>
 								<div className='mt-4 flex items-center justify-center text-4xl tablet:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
-									<span>$3,899</span>
+									<span>$6,499</span>
 									<span className='ml-3 text-xl font-medium dark:text-gray-200 text-gray-500'>USD</span>
 								</div>
 								<p className='mt-4 text-sm'>
-									<a href='#' className='select-none font-medium dark:text-blue-700 dark:hover:text-blue-600 text-gray-500 underline'>
+									<a
+										href='#'
+										className='select-none font-medium dark:text-blue-700 dark:hover:text-blue-600 text-gray-500 underline'
+									>
 										Learn about our membership policy
 									</a>
 								</p>
@@ -82,7 +85,7 @@ const Pricing: React.FunctionComponent = () => {
 								</div>
 								<div className='mt-4 text-sm'>
 									<a href='#' className='font-medium dark:text-gray-200 text-gray-900'>
-										Official Documentation <span className='font-normal dark:text-gray-200 text-gray-500'>(34MB)</span>
+										Official Documentation <span className='font-normal dark:text-gray-200 text-gray-500'>(16MB)</span>
 									</a>
 								</div>
 							</div>
@@ -90,6 +93,57 @@ const Pricing: React.FunctionComponent = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Yearly pass subscription Start */}
+
+			<div className='mt-8 bg-white dark:bg-transparent pb-16 sm:mt-12 sm:pb-20 lg:pb-28'>
+				<div className='relative'>
+					<div className='absolute inset-0 h-1/2 dark:bg-transparent bg-gray-800' />
+					<div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+						<div className='max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex'>
+							<div className='flex-1 bg-white dark:bg-gray-900 px-6 py-8 lg:p-12'>
+								<h3 className='text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:text-3xl'>Yearly Membership</h3>
+								<div className='mt-8'>
+									<div className='flex items-center'>
+										<div className='flex-1 border-t-2 border-gray-200' />
+									</div>
+								</div>
+							</div>
+							<div className='py-8 px-6 text-center bg-gray-50 dark:bg-dark-secondary lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12'>
+								<p className='text-lg leading-6 font-medium dark:text-gray-100 text-gray-900'>One payment per year.</p>
+								<div className='mt-4 flex items-center justify-center text-4xl tablet:text-5xl font-extrabold dark:text-gray-100 text-gray-900'>
+									<span>$12,119</span>
+									<span className='ml-3 text-xl font-medium dark:text-gray-200 text-gray-500'>USD</span>
+								</div>
+								<p className='mt-4 text-sm'>
+									<a
+										href='#'
+										className='select-none font-medium dark:text-blue-700 dark:hover:text-blue-600 text-gray-500 underline'
+									>
+										Learn about our membership policy
+									</a>
+								</p>
+								<div className='mt-6'>
+									<div className='rounded-md shadow'>
+										<a
+											href='#Pricing'
+											className='select-none flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 dark:bg-slate-800 hover:bg-gray-800 dark:hover:bg-slate-700'
+										>
+											Yearly Access
+										</a>
+									</div>
+								</div>
+								<div className='mt-4 text-sm'>
+									<a href='#' className='font-medium dark:text-gray-200 text-gray-900'>
+										Official Documentation <span className='font-normal dark:text-gray-200 text-gray-500'>(16mb)</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div className='bg-white dark:bg-transparent relative mb-8'>
 				<div className='absolute inset-0 flex items-center' aria-hidden='true'>
 					<div className='w-full border-t dark:border-none border-gray-300' />
