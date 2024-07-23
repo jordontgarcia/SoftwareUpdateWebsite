@@ -1,6 +1,6 @@
 const posts = [
 	{
-		title: 'Trice V3 Initialized',
+		title: 'TriceAi Initialized',
 		href: 'example',
 		description: `At this time, Trice's core Teams founded the mere thought of a such serious software upgrade, involving innovation at such a level that it
 			would shift and restructure our company entirely. TriceAi team, initiated with passion, began to passionately brainstorm and construct the idea of how 
@@ -41,10 +41,10 @@ const posts = [
 	{
 		title: 'Something Truly Spectacular',
 		href: 'example',
-		description: `On January 21st of 2024, we reached a milestone in Trice V3 were we felt content with our progress and results. This was a memorable time for
-			us! We were so excited to finally push Trice V3 into production, and see how it impacted those in the real world. We congratulated our Teams for working super
+		description: `On January 21st of 2024, we reached a milestone in TriceAi were we felt content with our progress and results. This was a memorable time for
+			us! We were so excited to finally push TriceAi into production, and see how it impacted those in the real world. We congratulated our Teams for working super
 			hard to make this happen and become a reality! We took a dream and vision and birthed it into reality, now that was something to celebrate for! We gave all our
-			teams and staff 2 weeks off to enjoy relaxation time and celebrate the birth of Trice V3!`,
+			teams and staff 2 weeks off to enjoy relaxation time and celebrate the birth of TriceAi!`,
 		date: 'Jan 21, 2024',
 		datetime: '2024-01-21',
 	},

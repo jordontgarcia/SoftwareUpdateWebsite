@@ -35,7 +35,7 @@ const Pricing: React.FunctionComponent = () => {
 								<p className='mt-6 text-base dark:text-gray-200 text-gray-500'>
 									Upon access, we will send you our welcome kit, with our own designed official Trice brand clothing as a thank
 									you for engaging with us. We highly value our customers experience, so don&apos;t hesitate to contact us if you
-									have any questions or concerns! We hope you enjoy Trice V3 and it&apos;s amazing capabilities, and we look
+									have any questions or concerns! We hope you enjoy TriceAi and it&apos;s amazing capabilities, and we look
 									forward to seeing what your brand, or team, creates with it! - 💖 Trice Team
 								</p>
 								<div className='mt-8'>
