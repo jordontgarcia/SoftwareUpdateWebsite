@@ -87,8 +87,8 @@ const IntroSection: React.FunctionComponent = () => {
 								</motion.div>
 							</h1>
 							<p className='mt-3 text-base dark:text-gray-300 text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-								Trice Studios is excited to announce the next generation of our Ai application, TriceAi. We are
-								revolutionizing what artificial intelligence can achieve for our users and clients.
+								Trice Studios is excited to announce the next generation of our Ai application, TriceAi. We are revolutionizing
+								what artificial intelligence can achieve for our users and clients.
 							</p>
 							<div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
 								<motion.div variants={variantSecondary} {...motionProps}>
