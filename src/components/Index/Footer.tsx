@@ -183,7 +183,10 @@ const Footer: React.FunctionComponent = () => {
 					<p className='text-base text-gray-400 xl:text-center'>
 						&copy; {new Date().getFullYear()} Trice Studios. Made with
 						<a href='https://nextjs.org' target='_blank' rel='noopener noreferrer'>
-							<span className='text-white hover:text-red-500 dark:hover:text-emerald-300 font-bold duration-150'> Next.js </span>
+							<span className='text-white hover:text-red-500 dark:hover:text-emerald-300 font-bold duration-150'>
+								{' '}
+								Next.js{' '}
+							</span>
 						</a>
 						and
 						<a href='https://tailwindcss.com' target='_blank' rel='noopener noreferrer'>
